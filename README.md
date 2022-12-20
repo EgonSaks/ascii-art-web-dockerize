@@ -10,7 +10,7 @@ You will have a go web server for ascii-art. You can type in some text, choose t
 
 ### To build the Docker image
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Mac**
+🔴 **Mac**
 
 Navigate to the directory containing the Dockerfile and run the following command:
 
@@ -28,7 +28,7 @@ docker container run -p 8080:8080 -it go-web-server
 sh dockerBuild.sh
 ```
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Linux**
+🔴 **Linux**
 
 ```
 sudo docker image build -t go-web-server .
@@ -50,7 +50,7 @@ This will start the Go web server and bind it to port 8080 on the host machine.
 
 ### To remove Docker image use:
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Mac**
+🔴 **Mac**
 
 stop all running containers
 ```
@@ -77,7 +77,7 @@ docker volume rm $(docker volume ls -q)
 sh dockerClearImages.sh
 ```
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) **Linux**
+🔴 **Linux**
 
 stop all running containers
 ```
